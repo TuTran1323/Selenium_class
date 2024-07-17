@@ -1,5 +1,3 @@
-
-
 package webdriver;
 
 import java.time.Duration;

@@ -1,5 +1,4 @@
-import java.time.Duration;
-import java.util.List;
+package src.test.java.webdriver;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
@@ -10,6 +9,9 @@ import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
+
+import java.time.Duration;
+import java.util.List;
 
 public class BTVN_03_Multiselect {
 	WebDriver driver;

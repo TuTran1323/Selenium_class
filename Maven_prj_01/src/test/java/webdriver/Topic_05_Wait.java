@@ -1,5 +1,6 @@
-import java.time.Duration;
+package src.test.java.webdriver;
 
+import java.time.Duration;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;

@@ -1,7 +1,4 @@
-
-package webdriver;
-
-import java.time.Duration;
+package src.test.java.webdriver;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -9,6 +6,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
+
+import java.time.Duration;
 
 public class Topic_04_selenium_api {
 	WebDriver driver;
@@ -44,17 +43,13 @@ public class Topic_04_selenium_api {
 		
 		//viết vào field email
 		driver.findElement(By.xpath("//input[@id='Email']")).sendKeys("abc@gmail.com");
-		sleepInSeconds(5);
-		driver.navigate()
-		
+		//sleepInSeconds(5);
+		//Thread.sleep(3000);
+		driver.navigate();
 
 		//đóng tab
 		driver.close();
 	}
 
-	@AfterClass
-	public void afterClass() {
-		// đóng browser
-		driver.quit();
-	}
+
 }
